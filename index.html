@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<link rel = "stylesheet" type = "text/css" href = "NewFile.css">   
+<title>Companymailerregisterfrom</title>
+
+</head>
+
+
+
+<body bgcolor=>
+
+<div id="frm">
+<h1>Registration</h1>
+<form action="./RegisterServlet1" method="post">
+
+
+Name    :  <br>  <input type="text" name="name"/><br><br>
+Email   :  <br> <input type="text" name="email"/>@TIT.com<br><br>
+
+Password:  <br>  <input type="password" name="password"/><br><br>
+
+Gender :     <input type ="radio"  name="gender" value="male"/>Male 
+<input type="radio" name="gender" value="female"/>Female
+<input type="radio" name="gender" value="other"/>other<br><br>
+
+
+DOB    :  <br>    <input type="date" name="dob"/><br><br>
+
+City   :  <br>   <input type="text" name="city"/><br><br>
+State  :  <br>
+    <select name="state">
+
+<option>Select-state:</option>
+<option>Mp</option>
+<option>Up</option>
+<option>Bihar</option>
+<option>Chattisgarh</option>
+<option>Andhra pradesh</option>
+
+<option>Other</option>
+
+</select><br><br>
+
+Contact:  <br>    <input type="text" name="contact"/><br><br>
+
+Re-enter new password<br>
+<input type="password" name ="rpwd"><br><br>
+<input  type="submit" id ="btn" value="register"/><br><br>
+<input  type="reset" id ="btn1" value="clear"/><br><br>
+
+</form>
+</div>
+
+
+
+</body>
+</html>

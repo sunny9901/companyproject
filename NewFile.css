@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+body{   
+    background: #eee;  
+}
+.bg-img{
+	background-image:
+	url("F:\Photo\sunny12.jpg");
+	
+	min-heigth:380px;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	position:relative;
+	
+}  
+#frm{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: white;  
+    padding: 50px;  
+}  
+#btn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px 30px;  
+    margin-right: 70%;  
+}  
+#btn1{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-right: 70%;  
+}  
